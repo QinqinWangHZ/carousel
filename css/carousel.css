@@ -1,0 +1,74 @@
+.content{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+.content .next,.content .prev{
+	position: relative;
+}
+.content .prev{
+	left:10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: rgba(255,228,255,0.4);
+	display: inline-block;
+}
+.content .prev:hover{
+	background: rgba(255,228,255,0.8);
+}
+.content .next{
+	right:10px;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background: rgba(255,228,255,0.4);
+	display: inline-block;
+}
+.content .next:hover{
+	background: rgba(255,228,255,0.8);
+}
+.content .prev img,.content .next img{
+	width: 20px;
+	height: 20px;
+}
+.content .next img{
+	float: right;
+	margin-top: 10px;
+	margin-right: 8px;
+}
+.content .prev img{
+	float: left;
+	margin-top: 10px;
+	margin-left: 8px;
+}
+.content .div1{
+	margin:0 auto;
+	overflow:hidden;
+}
+.content .div1 img{
+	width: 100%;
+	height: 100%;
+}
+.content .div2{
+	margin-top: -50px;
+	float: right;
+	position: relative;
+}
+#container .content i.current{
+	background-color:#ef7000;
+	opacity: 1;
+}
+.content .reck{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #FFDAB9;
+	display:inline-block;
+	margin-left: 3px;
+	opacity: 0.4;
+}
+.content .reck:first-child{
+	margin-left: 150px;
+}
